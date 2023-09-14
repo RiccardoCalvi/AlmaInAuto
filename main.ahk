@@ -22,7 +22,7 @@ PgDn::{
 
 ; Apre DevOps
 ^!d::{
-    Run "https://dev.azure.com/DEV-PA"
+    Run "https://dev.azure.com/"
 }
 
 ; Apre MyAlmaviva
@@ -48,11 +48,6 @@ PgDn::{
 ; Attiva la VPN
 ^!v::{
     turnOnVpn()
-}
-
-; Scrive le credenziali
-^!u::{
-    login()
 }
 
 ; Resetta le credenziali utente
