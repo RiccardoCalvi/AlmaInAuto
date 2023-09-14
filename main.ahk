@@ -1,4 +1,6 @@
-﻿#include functions\util.ahk
+﻿;@Ahk2Exe-UpdateManifest AlmaInAuto, 1.0.2
+
+#include functions\util.ahk
 #include functions\vscode.ahk
 
 #HotIf WinActive('ahk_class CabinetWClass')

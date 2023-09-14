@@ -1,5 +1,4 @@
 
-
 /*
     Apre il portale di timbrature ed effettua
     il login
@@ -29,7 +28,7 @@ userSetup(){
         US := InputBox("Inserisci la tua email AlmavivA", "Email", "w320 h240")
         if US.Result = "Cancel"{
             MsgBox "Il valore inserito non e' valido"
-            break
+            Exit
         }
         else{
             EnvSet "email", US.Value
@@ -41,7 +40,7 @@ userSetup(){
         PW := InputBox("Inserisci la tua password AlmavivA", "Password", "w320 h240 Password")
         if PW.Result = "Cancel"{
             MsgBox "Il valore inserito non e' valido"
-            break
+            Exit
         }
         else{
             EnvSet "pass", PW.Value
